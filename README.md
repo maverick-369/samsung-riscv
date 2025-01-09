@@ -11,3 +11,13 @@ GitHub Profile: maverick-369
 ![Screenshot 2025-01-09 085821](https://github.com/user-attachments/assets/34042491-3964-4b00-ad4a-8016a6daa559)
 ![Screenshot 2025-01-09 085842](https://github.com/user-attachments/assets/766233b7-5d68-4af3-b520-25f49ba67d9e)
 ![Screenshot 2025-01-09 085903](https://github.com/user-attachments/assets/937a905f-6cef-40eb-b5f0-98118b49c78c)
+
+Task 1
+C based lab screenshots
+![Screenshot 2025-01-09 113719](https://github.com/user-attachments/assets/17a09582-8476-404d-ad4e-1858af127672)
+![Screenshot 2025-01-09 110853](https://github.com/user-attachments/assets/5fde8ddb-7455-4970-ba1b-4b4ed5aacd2f)
+![Screenshot 2025-01-09 111040](https://github.com/user-attachments/assets/60afa3a0-3323-410f-bc20-fb1d0f797067)
+
+RISC-V based lab screenshots
+![Screenshot 2025-01-09 114915](https://github.com/user-attachments/assets/3267a105-5a47-4b5d-9036-e0c4dcebea3a)
+![Screenshot 2025-01-09 114842](https://github.com/user-attachments/assets/9734ff73-8b99-4286-a3fe-8d3144d31370)
