@@ -1,0 +1,28 @@
+# Task 2
+
+## (factorial)-O1 Object Dump
+![O1 Object Dump](task 2/(factorial)-O1 )
+
+## (factorial)-Ofast Object Dump
+![Ofast Object Dump](task 2/(factorial)-Ofast Object Dump.png)
+
+## GCC output of factorial.c
+![GCC Output](task 2/GCC output of factorial.c.png)
+
+## SPIKE Debugging Stack Pointer
+![SPIKE Debugging Stack Pointer](task 2/SPIKE Debugging Stack Pointer.png)
+
+## SPIKE debugging factorial
+![SPIKE Debugging Factorial](task 2/SPIKE debugging factorial.png)
+
+## SPIKE-Debugging
+![SPIKE-Debugging](task 2/SPIKE-Debugging.png)
+
+## Factorial Output (SPIKE, GCC)
+![Factorial Output (SPIKE, GCC)](task 2/factorial output (SPIKE, GCC).png)
+
+## factorial.c
+![Factorial Source Code](task 2/factorial.c.png)
+
+## sum1ton (GCC, SPIKE)
+![Sum1ton Output (GCC, SPIKE)](task 2/sum1ton (GCC,SPIKE).png)
