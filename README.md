@@ -77,7 +77,6 @@ c) Maximum height of the component at the bottom side: 1mm
 <br>
 Task is to refer to C based and RISCV based lab videos and execute the task of compiling the C code using gcc and riscv compiler.
 
-**C Language based LAB**
 
 **C and RISC-V Based Labs**
 
@@ -103,65 +102,140 @@ Steps to Compile a .c File on Your Machine:
 Compilation and execution complete.
  
 ![Image](https://github.com/user-attachments/assets/2ddedf49-a6a4-4cd6-a9a9-f800b3b0a6f2)
-)
-RISC-V Based Lab
 
-**Steps to Compile Using RISC-V GCC Compiler:**
-1. Ensure the RISC-V GCC compiler is installed and accessible on your system.
-2. Verify the .c file contents using the cat command:
-   ```sh
-   cat sum1ton.c
-
-
-3. Compile the C program for RISC-V architecture using 01 option:
- ```sh
-riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
-```
-4. Disassemble the object file to view its assembly code using:
- ```sh
-riscv64-unknown-elf-objdump -d sum1ton.o
-```
-5.minimize the assembly by using following code:
-```sh
-riscv64-unknown-elf-objdump -d sum1ton.o | less
-```
- a)we extract main function's assembly code by using:
-   ```sh
-/main
-```
-6. Use /main in the terminal to locate the main function in the assembly output.
 ![Image](https://github.com/user-attachments/assets/2ddedf49-a6a4-4cd6-a9a9-f800b3b0a6f2)
 
-7.Compile the C program for RISC-V architecture using ofast option:
-```sh
-riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
-```
-8.Disassemble the object file to view its assembly code using:
-```sh
-riscv64-unknown-elf-objdump -d sum1ton.o
-```
-9.minimize the assembly by using following code:
-```sh
-riscv64-unknown-elf-objdump -d sum1ton.o | less
-```
- a)we extract main function's assembly code by using:
- ```sh
-  /main
-```
-10. Use /main in the terminal to locate the main function in the assembly output.
 ![Image](https://github.com/user-attachments/assets/575a7a3c-c918-40ac-a018-ff1a1c90df3f)
 
-Explanation of Key Commands and Options: 
-1. -mabi=lp64: Specifies the Application Binary Interface (ABI) for 64-bit integers, pointers, and long data types, suitable for 64-bit RISC-V architecture.
+![Image](https://github.com/user-attachments/assets/7803d585-135b-44c3-9a59-ed015a403341)
 
-2. -march=rv64i: Indicates the 64-bit RISC-V base integer instruction set architecture.
+![Image](https://github.com/user-attachments/assets/ed8be547-89cb-4ba3-ac94-377d1512d084)
+)
 
-3. -O1: Enables basic optimization for better performance without significantly increasing compilation time.
 
-4. -Ofast: Optimize the code aggressively for the best possible speed.
 
-5. riscv64-unknown-elf-objdump: A tool for disassembling RISC-V binaries to examine the code structure and debug it effectively.
- 
-   </details>
+<details>
+<summary> <b>Task 2:</b> The task involves reviewing both C-based and RISC-V-based lab videos to understand the nuances of compiling C code for different architectures. Afterward, you are required to execute the process of compiling the C code using two distinct tools: the GCC compiler and the RISC-V compiler simulator. This will allow you to demonstrate your ability to work with both compilers, providing insights into how the C code is processed and converted into machine-readable code for each specific architecture.</summary> 
+<br>
+
+Task is to analyze the SPIKE simulation performance using RISC-V GCC with -O1 and -Ofast optimization levels.  
+
+*SPIKE Simulation and Compiler Optimization*
+
+This repository demonstrates how to compile a C program using RISC-V GCC, simulate it using SPIKE, and compare the performance of different optimization levels (-O1 and -Ofast). It includes detailed steps and explanations to ensure clarity.  
+
+**Steps to Complete the Task**  
+
+1.Write a Simple C Program  
+
+2.The following program calculates the swaping of two numbers:  
+
+3.Compile Using RISC-V GCC
+
+4.Compile with -O1 Optimization.
+
+*Use the following command to compile the program with the -O1 optimization flag:*
+```sh
+riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o swift.o swift.c
+```
+**Disassemble Object Files to View Assembly Code(in new terminal)**
+*Generate Dump for -O1 Optimization*
+```sh
+riscv64-unknown-elf-objdump -d swift.o
+```
+*Minimize the assembly by using following code:*
+```sh
+riscv64-unknown-elf-objdump -d swift.o | less
+```
+
+**Run SPIKE Simulation**
+*Run a compiled RISC-V program on the SPIKE simulator in non-debug mode.*
+```sh
+spike pk swift.o
+```
+*Invoke the debug mode of the SPIKE RISC-V simulator.*
+```sh
+spike -d pk swift.o
+```
+
+**Compile with -Ofast Optimization.**
+*Use the following command to compile the program with the -Ofast optimization flag:*
+```sh
+riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o swift.o swift.c
+```
+**Disassemble Object Files to View Assembly Code(in new terminal)**
+*Generate Dump for -Ofast Optimization*
+```sh
+riscv64-unknown-elf-objdump -d swift.o
+```
+*Minimize the assembly by using following code:*
+```sh
+riscv64-unknown-elf-objdump -d swift.o | less
+```
+
+**Run SPIKE Simulation**
+*Run -O1 Binary in SPIKE*
+```sh
+spike pk swift.o
+```
+*Invoke the debug mode of the SPIKE RISC-V simulator*
+```sh
+spike -d pk swift.o
+```
+![Image](https://github.com/user-attachments/assets/83e58b8d-b346-4ce5-8a97-dd86cfa8c9b4)
+
+![Image](https://github.com/user-attachments/assets/4cd88e69-80ed-4175-ba3b-a869cd7ca414)
+
+![Image](https://github.com/user-attachments/assets/8aff14f7-847a-4cbd-a017-a47433256271)
+
+![Image](https://github.com/user-attachments/assets/4d050220-0378-42ec-9bd3-2173acbabb61)
+
+![Image](https://github.com/user-attachments/assets/0b671f41-e0d2-4c88-84e9-7a7597d62226)
+
+![Image](https://github.com/user-attachments/assets/30c0f6dd-ead9-4105-b8b9-b96c81610f81)
+
+![Image](https://github.com/user-attachments/assets/3ddeefdf-dc56-4a4e-9f86-1724a60e3827)
+
+![Image](https://github.com/user-attachments/assets/db2f3484-0d02-47e2-8c87-a9b91f922b4c)
+
+![Image](https://github.com/user-attachments/assets/85ec7274-b5e1-4340-b102-0f3b895f29a3)
+
+![Image](https://github.com/user-attachments/assets/cc546fbb-f498-44f6-9c35-281bf3a587c3)
+
+![Image](https://github.com/user-attachments/assets/657ba0c1-f12c-46f9-9934-74200b6fd62e)
+
+![Image](https://github.com/user-attachments/assets/a61f1319-908e-4a53-a7a3-9ade2f23380d)
+
+
+**After(spike -d pk swift.o) Observe the Instructions:**
+
+1)After loading, SPIKE initializes and displays the Program Counter (PC) and Stack Pointer (SP).
+
+2)Press Enter repeatedly to step through the execution.
+
+3)Each press displays the next instruction executed by the program.
+
+4)The displayed instructions directly correspond to the C code of the main program, providing insights into the program's execution flow.
+**Explanation of Key Commands and Options:**
+
+1. spike:RISC-V simulator that runs RISC-V programs on a virtual machine.
+
+2. pk:Proxy kernel that acts as a minimal runtime environment for RISC-V programs, handling system calls like I/O and memory management.
+
+3. swift.o:The compiled RISC-V binary of your program (created using a RISC-V GCC compiler).
+
+4. -d (for debugging):Debugging mode in SPIKE, allows stepping through the instructions and inspecting the program's behavior.
+
+5. riscv64-unknown-elf-gcc:RISC-V GCC compiler used to compile the C program into a RISC-V object file (.o).
+
+6. -O1, -Ofast:Compiler optimization flags:
+      a.-O1: Basic optimizations for performance.
+      b.-Ofast: Aggressive optimizations for maximum speed.
+
+7. riscv64-unknown-elf-objdump:Disassembles RISC-V binaries to examine assembly code.
+
+These tools together enable compiling, running, and debugging RISC-V programs on a simulated environment.
+
+</details>
 
 ---
