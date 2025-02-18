@@ -997,6 +997,10 @@ uint8_t readNumber() {
     return (uint8_t)num;
 }
 ```
+
+https://github.com/user-attachments/assets/6abdef77-97af-4572-b097-11963f0a96e7
+
+
 # Applications of Fingerprint-Based Security Systems
 
 Fingerprint-based security systems offer a secure and efficient method of access control. These systems utilize unique biometric identifiers to ensure that only authorized individuals are granted access to restricted areas. Below are some of the key applications of fingerprint authentication technology.
