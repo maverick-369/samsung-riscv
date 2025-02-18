@@ -806,10 +806,10 @@ This project involves the development of a fingerprint-based biometric access co
 - The system removes the corresponding fingerprint data from its memory.
 - This setup provides a secure and efficient method of access control, leveraging biometric authentication to ensure that only authorized individuals can gain entry.
 - The integration of the VSDSquadron Mini RISC-V board ensures reliable performance and ease of development.
-- --
+
 </details>
 
-
+---
 <details>
 <summary> <b>Task 6</b> <br>A fingerprint-based security system is an advanced solution that manages access through biometric verification. The system employs a fingerprint sensor to capture and authenticate unique fingerprint data. Upon recognizing a registered fingerprint, it actuates a servo motor to grant access. Users can enroll new fingerprints, verify existing ones, or remove stored fingerprints via serial commands. If an unregistered fingerprint is presented, access is denied. This technology is extensively utilized in home security, restricted zones, biometric authentication, and access control systems.</summary> 
 <br>
@@ -1029,4 +1029,3 @@ Biometric door lock systems provide a high level of security by granting or deny
 ## Conclusion
 The integration of fingerprint-based security systems offers a robust and efficient method for access control across various sectors. By leveraging unique biometric identifiers, these systems enhance security measures, reduce reliance on traditional keys or passwords, and provide a seamless user experience. As technology advances, the adoption of biometric authentication continues to expand, underscoring its significance in modern security infrastructures.
 </details>
----
