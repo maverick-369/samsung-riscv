@@ -487,17 +487,14 @@ This README contains a table of 23 unique RISC-V instructions, their machine cod
 ## 2. BLOCK DIAGRAM OF RISC-V RV32I
 ![image](https://user-images.githubusercontent.com/110079631/181293948-beb8622c-7696-4b06-b6c9-eeab9b8ab9d3.png)
 
-## 3. INSTRUCTION SET OF RISC-V RV32I
-![image](https://user-images.githubusercontent.com/110079631/181298133-60269bc2-01da-4b5c-8b42-69057b8dc15c.png)
-
 # RISC-V Core Functional Simulation 
-## 4. FUNCTIONAL SIMULATION
+## 3. FUNCTIONAL SIMULATION
 
-### 4.1 About iverilog and gtkwave
+### 3.1 About iverilog and gtkwave
 - Icarus Verilog is an implementation of the Verilog hardware description language.
 - GTKWave is a fully featured GTK+ v1. 2 based wave viewer for Unix and Win32 which reads Ver Structural Verilog Compiler generated AET files as well as standard Verilog VCD/EVCD files and allows their viewing.
 
-### 4.2 Installing iverilog and gtkwave
+### 3.2 Installing iverilog and gtkwave
 
 - **For Ubuntu**
 
@@ -523,7 +520,7 @@ $ ./iiitb_rv32i
 
 `$ gtkwave iiitb_rv32i.vcd`
 
-### 4.3 The output waveform
+### 3.3 The output waveform
 
  The output waveform showing the instructions performed in a 5-stage pipelined architecture.
 
