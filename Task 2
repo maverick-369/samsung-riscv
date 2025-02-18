@@ -1,28 +1,15 @@
 # Task 2
 
-## (factorial)-O1 Object Dump
-![O1 Object Dump](task 2/(factorial)-O1 )
-
-## (factorial)-Ofast Object Dump
-![Ofast Object Dump](task 2/(factorial)-Ofast Object Dump.png)
-
-## GCC output of factorial.c
-![GCC Output](task 2/GCC output of factorial.c.png)
-
-## SPIKE Debugging Stack Pointer
-![SPIKE Debugging Stack Pointer](task 2/SPIKE Debugging Stack Pointer.png)
-
-## SPIKE debugging factorial
-![SPIKE Debugging Factorial](task 2/SPIKE debugging factorial.png)
-
-## SPIKE-Debugging
-![SPIKE-Debugging](task 2/SPIKE-Debugging.png)
-
-## Factorial Output (SPIKE, GCC)
-![Factorial Output (SPIKE, GCC)](task 2/factorial output (SPIKE, GCC).png)
-
-## factorial.c
-![Factorial Source Code](task 2/factorial.c.png)
-
-## sum1ton (GCC, SPIKE)
-![Sum1ton Output (GCC, SPIKE)](task 2/sum1ton (GCC,SPIKE).png)
+![Image](https://github.com/user-attachments/assets/d29d4a16-75cd-426a-bcb5-2f4220e4dfbc)
+![Image](https://github.com/user-attachments/assets/f417f93a-91f2-43d6-9d37-86d5ebd20c1b)
+![Image](https://github.com/user-attachments/assets/b49fa5ae-274f-4237-9afb-86a22b8bff77)
+![Image](https://github.com/user-attachments/assets/6e586aa8-5651-4b58-98f8-cf33c321b0bb)
+![Image](https://github.com/user-attachments/assets/45fc20db-a0ad-4b06-89e6-07a407d34048)
+![Image](https://github.com/user-attachments/assets/ba60107e-dcaf-433c-bbe1-68fcf12877fa)
+![Image](https://github.com/user-attachments/assets/7dbac4a3-a8c6-4583-88da-3e273a12dc1d)
+![Image](https://github.com/user-attachments/assets/36258af5-6822-4680-a4db-7c821e244210)
+![Image](https://github.com/user-attachments/assets/fae2d960-1b46-4618-b535-73f2a6c3cb16)
+![Image](https://github.com/user-attachments/assets/02ffa390-7a3e-4701-a829-55f684b53f51)
+![Image](https://github.com/user-attachments/assets/a62d6d8b-69f2-4e16-a082-88c9b965d6ed)
+![Image](https://github.com/user-attachments/assets/556faeb4-79b5-4b44-8726-edd1d9e93842)
+![Image](https://github.com/user-attachments/assets/fd17cad0-12d8-4f6c-935b-6674056aa494)
